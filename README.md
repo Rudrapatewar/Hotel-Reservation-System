@@ -47,11 +47,11 @@ package HotelReservationSystem;
 
     // Initialize some rooms
     private static void initializeRooms() {
-        rooms.add(new Room(101, "Standard", 100.00, true));
-        rooms.add(new Room(102, "Deluxe", 150.00, true));
-        rooms.add(new Room(103, "Suite", 250.00, true));
-        rooms.add(new Room(104, "Standard", 100.00, true));
-        rooms.add(new Room(105, "Deluxe", 150.00, true));
+        rooms.add(new Room(108, "Standard", 200.00, true));
+        rooms.add(new Room(302, "Deluxe", 350.00, true));
+        rooms.add(new Room(203, "Suite", 450.00, true));
+        rooms.add(new Room(304, "Standard", 250.00, true));
+        rooms.add(new Room(305, "Deluxe", 100.00, true));
     }
 
     // Search for available rooms based on type
